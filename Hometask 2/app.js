@@ -48,5 +48,10 @@ if (a > 0) {
 }
 // Преобразование типов. Задачи
 // 1.
-
+let a = 0 || 'string'; // string
+let a = 1 && "string"; // string
+let a = null || 25; // 25
+let a = null && 25; // null
+let a = null || 0 || 35; // 35
+let a = null && 0 && 35; // null
 // 2.
