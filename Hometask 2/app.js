@@ -55,3 +55,11 @@ let a = null && 25; // null
 let a = null || 0 || 35; // 35
 let a = null && 0 && 35; // null
 // 2.
+12 + 14 + "12" // "2612"
+3 + 2 - "1" // 4
+"3" + 2 - 1 // 31
+true + 2 // 3
++"10" + 1 // 11
+undefined + 2 // NaN
+null + 5 // 5
+true + undefined // NaN
