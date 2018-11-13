@@ -1,0 +1,14 @@
+git init
+включить гит
+git clone https://
+скопировать гит из репозитория
+git config --global user.email "почта в скобках"
+git config --global user.name "EmilienKerbalec"
+Подключиться для того чтобы можно было коммитить
+git remote add origin https://url.git
+Подключить к мастеру гит
+cd FolderName
+войти в папку проекта
+git add .
+git commit -m "Name of commit"
+git push --setupstream origin master
